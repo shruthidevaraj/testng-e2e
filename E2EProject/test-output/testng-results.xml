@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44289" started-at="2019-03-02T00:30:36Z" finished-at="2019-03-02T00:31:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44289" started-at="2019-03-02T00:30:36Z" finished-at="2019-03-02T00:31:20Z">
+      <class name="academy.HomePage1">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:academy.HomePage1@4b9e13df]" name="initialize" is-config="true" duration-ms="4221" started-at="2019-03-02T00:30:36Z" finished-at="2019-03-02T00:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePage1@4b9e13df]" name="basePageNavigation" duration-ms="23959" started-at="2019-03-02T00:30:40Z" data-provider="getData" finished-at="2019-03-02T00:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shruthimdevaraj@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePage1@4b9e13df]" name="basePageNavigation" duration-ms="7669" started-at="2019-03-02T00:31:04Z" data-provider="getData" finished-at="2019-03-02T00:31:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prvnmali@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePage1@4b9e13df]" name="basePageNavigation" duration-ms="8156" started-at="2019-03-02T00:31:12Z" data-provider="getData" finished-at="2019-03-02T00:31:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usha1639@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="name()[pri:0, instance:academy.HomePage1@4b9e13df]" name="name" is-config="true" duration-ms="216" started-at="2019-03-02T00:31:20Z" finished-at="2019-03-02T00:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+      </class> <!-- academy.HomePage1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
